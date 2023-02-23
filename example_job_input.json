@@ -1,0 +1,9 @@
+parameters: {
+    "input_filename": {
+        "url": [ "https://raw.githubusercontent.com/unity-sds/unity-example-application/main/process.ipynb" ]
+    },
+    "line_offset": 42,
+}
+stage_out: {
+    "s3_url": "my_bogus_bucket"
+}
