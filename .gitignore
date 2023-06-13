@@ -1,5 +1,15 @@
+# Editor temporary files
+.*.swp
+
 # Virtual environment
 env/
 
 # Jupyter temporary directory
 .ipynb_checkpoints/
+
+# Output from process.ipynb
+summary_table.txt
+process_results.json
+
+# Unity App Generator file
+.unity_app_gen

@@ -1,0 +1,8 @@
+parameters: {}
+stage_in:
+    stac_json: 
+      class: File
+      path: "cmr_results.json"
+    download_type: DAAC
+    edl_username: "base64.standard_b64encode(username)"
+    edl_password: "base64.standard_b64encode(password)"
