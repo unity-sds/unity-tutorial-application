@@ -1,4 +1,4 @@
 papermill
-pystac
+git+https://github.com/unity-sds/unity-py.git@develop
 netCDF4
 tabulate
