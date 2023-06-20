@@ -19,7 +19,7 @@
       "assets": {
         "data": {
           "title": "Download SNDR.SS1330.CHIRP.20160822T0005.m06.g001.L1_AQ.std.v02_48.G.200425095850.nc",
-          "href": "test/stage_in/SNDR.SS1330.CHIRP.20160822T0005.m06.g001.L1_AQ.std.v02_48.G.200425095850.nc"
+          "href": "./SNDR.SS1330.CHIRP.20160822T0005.m06.g001.L1_AQ.std.v02_48.G.200425095850.nc"
         }
       },
       "type": "Feature",
@@ -96,7 +96,7 @@
       "assets": {
         "data": {
           "title": "Download SNDR.SS1330.CHIRP.20160822T0011.m06.g002.L1_AQ.std.v02_48.G.200425095901.nc",
-          "href": "test/stage_in/SNDR.SS1330.CHIRP.20160822T0011.m06.g002.L1_AQ.std.v02_48.G.200425095901.nc"
+          "href": "./SNDR.SS1330.CHIRP.20160822T0011.m06.g002.L1_AQ.std.v02_48.G.200425095901.nc"
         }
       },
       "type": "Feature",
