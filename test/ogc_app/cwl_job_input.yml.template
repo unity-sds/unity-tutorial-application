@@ -3,7 +3,7 @@ parameters:
     example_argument_string: null
     example_argument_int: null
     example_argument_float: null
-    example_argument_empty: null
+    example_argument_empty: "Not null string"
     example_argument_bool: null
 stage_in:
     stac_json: 
