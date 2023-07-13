@@ -1,4 +1,4 @@
 papermill
-git+https://github.com/unity-sds/unity-py.git@develop
+unity-sds-client==0.1.2
 netCDF4
 tabulate
