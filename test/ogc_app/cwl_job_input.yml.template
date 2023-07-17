@@ -13,12 +13,9 @@ stage_in:
     edl_username: "base64.standard_b64encode(username)"
     edl_password: "base64.standard_b64encode(password)"
 stage_out:  # Anonymous record type.
-    unity_username: null
-    unity_password: null
-    unity_dapa_api: null
-    unity_client_id: null
-    staging_bucket: null
     collection_id: null
+    staging_bucket: null
+    aws_region: us-west-2
     aws_session_token: null
     aws_secret_access_key: null
     aws_access_key_id: null
