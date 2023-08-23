@@ -1,4 +1,4 @@
 papermill
-unity-sds-client==0.1.2
+unity-sds-client==0.2.0
 netCDF4
 tabulate
