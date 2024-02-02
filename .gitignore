@@ -10,6 +10,7 @@ env/
 # Output from process.ipynb
 summary_table.txt
 process_results.json
+test/process_results/
 
 # Unity App Generator file
 .unity_app_gen
