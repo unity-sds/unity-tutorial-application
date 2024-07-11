@@ -44,8 +44,14 @@ done
 echo "Using modified job input file $modified_job_inp_file:"
 cat $modified_job_inp_file
 
+# Detect if using Podman 
+if [ ! -z "$(which podman)" ]; then
+    use_podman_arg="--podman"
+fi
+
 cwltool \
     --debug --leave-tmpdir --no-read-only \
+    $use_podman_arg \
     "$WORKFLOW_FILENAME" "$modified_job_inp_file" \
     $*
 

@@ -12,6 +12,9 @@ stage_in:
     download_type: DAAC
     edl_username: "base64.standard_b64encode(username)"
     edl_password: "base64.standard_b64encode(password)"
+    edl_password_type: BASE64
+    unity_client_id: ""
+    unity_stac_auth: ""
 stage_out:  # Anonymous record type.
     collection_id: null
     staging_bucket: null
