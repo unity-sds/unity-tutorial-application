@@ -1,6 +1,6 @@
 {
     stage_out: { 
-        staging_bucket: 'sps-test-ds-storage',
+        staging_bucket: 'sps-dev-ds-storage',
         collection_id: 'urn:nasa:unity:unity:test:unity-tutorial'
     },
     stage_in: {
