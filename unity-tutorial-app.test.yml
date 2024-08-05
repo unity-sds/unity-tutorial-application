@@ -2,7 +2,7 @@
     stage_in: {  # Anonymous record type.
     	stac_json: { # type 'File'
         	class: 'File',
-        	path: 'https://raw.githubusercontent.com/unity-sds/unity-tutorial-application/main/test/stage_in/stage_in_results.json',
+        	path: 'https://raw.githubusercontent.com/unity-sds/unity-tutorial-application/main/test/stage_in/stage_in_results.json'
          },
         downloading_roles: '', 
         downloading_keys: 'data', #key under "assets" in the stage_in_results.json
