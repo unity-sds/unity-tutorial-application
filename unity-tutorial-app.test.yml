@@ -1,0 +1,15 @@
+{
+    stage_out: { 
+        staging_bucket: 'sps-test-ds-storage',
+        collection_id: 'urn:nasa:unity:unity:test:unity-tutorial'
+    },
+    stage_in: {
+        stac_json: 'https://raw.githubusercontent.com/unity-sds/unity-tutorial-application/main/test/stage_in/stage_in_results.json',
+        downloading_roles: '', 
+        downloading_keys: 'data, data1',
+        download_type: 'DAAC'
+    },
+    parameters: {
+        output_collection: 'urn:nasa:unity:unity:test:unity-tutorial'
+    }
+}
