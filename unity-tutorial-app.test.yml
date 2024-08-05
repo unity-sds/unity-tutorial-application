@@ -1,6 +1,6 @@
 {
-    stage_in: {  # Anonymous record type.
-    	stac_json: { # type 'File'
+    stage_in: {
+    	stac_json: {
         	class: 'File',
         	path: 'https://raw.githubusercontent.com/unity-sds/unity-tutorial-application/main/test/stage_in/stage_in_results.json'
          },
