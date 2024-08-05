@@ -6,7 +6,8 @@
          },
         downloading_roles: '', 
         downloading_keys: 'data', #key under "assets" in the stage_in_results.json
-        download_type: 'DAAC'
+        download_type: 'DAAC',
+        edl_password: '',
     },
     parameters: {
         output_collection: 'urn:nasa:unity:unity:test:unity-tutorial'
