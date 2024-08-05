@@ -1,9 +1,15 @@
-staging_bucket: 'sps-dev-ds-storage'
-collection_id: 'urn:nasa:unity:unity:dev:unity-tutorial'
-
-stac_json: 'https://raw.githubusercontent.com/unity-sds/unity-tutorial-application/main/test/stage_in/stage_in_results.json'
-downloading_roles: ''
-downloading_keys: 'data'
-download_type: 'DAAC'
-
-output_collection: 'urn:nasa:unity:unity:dev:unity-tutorial'
+{
+    stage_in: {
+        stac_json: 'https://raw.githubusercontent.com/unity-sds/unity-tutorial-application/main/test/stage_in/stage_in_results.json',
+        downloading_roles: '', 
+        downloading_keys: 'data', #key under "assets" in the stage_in_results.json
+        download_type: 'DAAC'
+    },
+    parameters: {
+        output_collection: 'urn:nasa:unity:unity:test:unity-tutorial'
+    },
+    stage_out: { 
+        staging_bucket: 'sps-dev-ds-storage',
+        collection_id: 'urn:nasa:unity:unity:test:unity-tutorial'
+    }
+}
