@@ -10,6 +10,6 @@
         download_type: 'DAAC'
     },
     parameters: {
-        output_collection: 'urn:nasa:unity:unity:test:unity-tutorial'
+        output_collection: 'urn:nasa:unity:unity:dev:unity-tutorial'
     }
 }
