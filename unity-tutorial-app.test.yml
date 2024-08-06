@@ -9,7 +9,9 @@
         download_type: 'HTTP',
         edl_username: '',
         edl_password_type: '',
-        edl_password: ''
+        edl_password: '',
+        unity_stac_auth: 'UNITY',
+        unity_client_id: '40c2s0ulbhp9i0fmaph3su9jch'
     },
     parameters: {
         output_collection: 'urn:nasa:unity:unity:test:unity-tutorial',
