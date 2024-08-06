@@ -6,7 +6,7 @@
          },
         downloading_roles: '', 
         downloading_keys: 'data', #key under "assets" in the stage_in_results.json
-        download_type: 'DAAC',
+        download_type: 'HTTP',
         edl_password: '',
     },
     parameters: {
