@@ -12,7 +12,8 @@
         edl_password: ''
     },
     parameters: {
-        output_collection: 'urn:nasa:unity:unity:test:unity-tutorial'
+        output_collection: 'urn:nasa:unity:unity:test:unity-tutorial',
+        summary_table_filename: 'summary_table.txt'
     },
     stage_out: { 
         staging_bucket: 'sps-test-ds-storage',
