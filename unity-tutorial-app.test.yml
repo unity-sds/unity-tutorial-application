@@ -8,6 +8,7 @@
         downloading_keys: 'data', #key under "assets" in the stage_in_results.json
         download_type: 'HTTP',
         edl_password: '',
+        edl_username: ''
     },
     parameters: {
         output_collection: 'urn:nasa:unity:unity:test:unity-tutorial'
