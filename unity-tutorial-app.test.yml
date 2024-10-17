@@ -11,11 +11,11 @@
         unity_client_id: '40c2s0ulbhp9i0fmaph3su9jch'
     },
     parameters: {
-        output_collection: 'urn:nasa:unity:unity:prod:unity-tutorial',
+        output_collection: 'urn:nasa:unity:emit:dev:unity-tutorial',
         summary_table_filename: 'summary_table.txt'
     },
     stage_out: { 
-        staging_bucket: 'sps-test-ds-storage',
-        collection_id: 'urn:nasa:unity:unity:prod:unity-tutorial'
+        staging_bucket: 'emit-dev-unity-data',
+        collection_id: 'urn:nasa:unity:emit:dev:unity-tutorial'
     }
 }
