@@ -4,11 +4,11 @@
         downloading_roles: '', 
         downloading_keys: 'data', #key under "assets" in the stage_in_results.json
         download_type: 'HTTP',
-        edl_username: '',
+        edl_username: None,
         edl_password_type: '',
         edl_password: '',
-        unity_stac_auth: 'UNITY',
-        unity_client_id: '40c2s0ulbhp9i0fmaph3su9jch'
+        unity_stac_auth: '',
+        unity_client_id: 'NONE'
     },
     parameters: {
         output_collection: 'urn:nasa:unity:emit:dev:unity-tutorial',
